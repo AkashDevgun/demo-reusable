@@ -1,0 +1,13 @@
+name: Reusable from Separate Repo
+
+on:
+  workflow_call:
+    
+jobs:
+  Reusable-Separate-Repo:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Reusable Print from Separate Repo
+        run: |
+          echo "Reusable"
