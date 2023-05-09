@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: Reusable Print from Separate Repo
         run: |
-          echo "Reusable from Separate Repo"
+          echo "Reusable from Separate Repo-"
